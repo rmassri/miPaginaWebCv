@@ -1,0 +1,1046 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--[if IE 9]>
+<html class="ie9" lang="en">    <![endif]-->
+<!--[if IE 8]>
+<html class="ie8" lang="en">    <![endif]-->
+
+<!-- Mirrored from neuethemes.net/preview/html/gridus/html/layouts/michael/index.html by HTTrack Website Copier/3.x [XR&CO'2013], Wed, 25 Apr 2018 19:45:30 GMT -->
+<head>
+<style type="text/css">
+  /**THE SAME CSS IS USED IN ALL 3 DEMOS**/    
+/**gallery margins**/  
+    .zoom{
+
+        /* Aumentamos la anchura y altura durante 2 segundos */
+
+        transition: width 2s, height 2s, transform 2s;
+
+        -moz-transition: width 2s, height 2s, -moz-transform 2s;
+
+        -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+
+        -o-transition: width 2s, height 2s,-o-transform 2s;
+
+    }
+
+    .zoom:hover{
+
+        /* tranformamos el elemento al pasar el mouse por encima al doble de
+
+           su tamaño con scale(2). */
+
+        transform : scale(1.2);
+
+        -moz-transform : scale(1.2);      /* Firefox */
+
+        -webkit-transform : scale(1.2);   /* Chrome - Safari */
+
+        -o-transform : scale(1.2);        /* Opera */
+
+    }
+
+</style>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name=viewport content="width=device-width, initial-scale=1">
+
+   <title>Richard Massri</title>
+
+   <meta name="description" content="Gridus vCard HTML Template is the professional responsive personal website template, based on the latest Bootstrap 3">
+   <meta name="keywords" content="html5, template, website, responsive, bootstrap">
+   <meta name="author" content="neuethemes">
+
+   <!-- Preloader -->
+   <link href="assets/custom/2.2.2/css/preloader.css" property='stylesheet' rel="stylesheet" type="text/css" media="screen"/>
+
+   <!-- CSS -->
+   <link rel="stylesheet" href="maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <link href="maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" property='stylesheet' rel="stylesheet" type="text/css" media="screen"/>
+   <link href="assets/vendor/flaticons/flaticon.mina738.css?v=29022016" property='stylesheet' rel="stylesheet" type="text/css" media="screen"/>
+   <link href="assets/vendor/hover/css/hover-min40a0.css?v=2.0.2" property='stylesheet' rel="stylesheet" type="text/css" media="screen"/>
+   <link href="assets/vendor/mfp/css/magnific-popup.min9f1e.css?v=1.1.0" property='stylesheet' rel="stylesheet" type="text/css" media="screen"/>
+   <link href="assets/vendor/owl-carousel/assets/owl.carousel.minf066.css?v=2.1.0" property='stylesheet' rel="stylesheet" type="text/css" media="screen"/>
+
+   <!-- Custom styles -->
+   <link href="assets/custom/2.2.2/css/style.css" property='stylesheet' rel="stylesheet" type="text/css" media="screen"/>
+   <link href="assets/custom/2.2.2/css/layouts/michael.css" property='stylesheet' rel="stylesheet" type="text/css" media="screen"/>
+   <link href="assets/custom/2.2.2/css/colors/greyscale.css" id="color-styles" property='stylesheet' rel="stylesheet" type="text/css" media="screen"/>
+</head>
+
+<body id="michael" class="boxed">
+
+<!--Pre-Loader-->
+<div id="preloader"></div>
+
+<header>
+   <section id="top-navigation" class="container-fluid nopadding">
+      <div class="row nopadding ident ui-bg-color01">
+         <!-- Carousel -->
+         <section id="owl-carousel" data-section="owl-carousel"
+                  data-animation-origin="bottom"
+                  data-animation-duration="500"
+                  data-animation-delay="400"
+                  data-animation-distance="100px">
+            <div class="owl-carousel owl-theme">
+               <div class="item">
+                  <div class="feat-post right">
+                  </div> 
+                  <img style="" src="assets/custom/2.2.2/images/layouts/michael/carousel/curriculo.jpg" class="" alt="01">
+               </div>
+
+               <div class="item">
+                  <div class="feat-post right">
+                     <div class="feat-wrapper">
+                     </div>
+                  </div>
+                  <img src="assets/custom/2.2.2/images/layouts/michael/carousel/curriculo.jpg" class="" alt="01" style="">
+               </div>
+
+               <div class="item" style=""> 
+                  <div class="feat-post right">
+                     <div class="feat-wrapper">
+                     </div>
+                  </div>
+                  <img src="assets/custom/2.2.2/images/layouts/michael/carousel/curriculo.jpg" style="" class="" alt="01">
+               </div>
+
+
+            </div>
+            <div class="e-divider-6"></div>
+         </section>
+         <!-- /Carousel -->
+         <div class="col-md-12 vc-name nopadding">
+
+            <ul id="nav" class="row nopadding cd-side-navigation">
+               <li class="col-xs-4 col-sm-2 nopadding menuitem ui-menu-color01" data-animation-duration="1000" data-animation-delay="100">
+                  <a href="#" class="hvr-sweep-to-bottom"><i class="flaticon-insignia"></i><span>Inicio</span></a>
+               </li>
+               <li class="col-xs-4 col-sm-2 nopadding menuitem ui-menu-color02" data-animation-duration="1000" data-animation-delay="300">
+                  <a href="#perfil" class="hvr-sweep-to-bottom"><i class="flaticon-graduation61"></i><span>Perfil</span></a>
+               </li>
+               <li class="col-xs-4 col-sm-2 nopadding menuitem ui-menu-color03" data-animation-duration="1000" data-animation-delay="500">
+                  <a href="#resumen" class="hvr-sweep-to-bottom"><i class="flaticon-book-bag2"></i><span>Resumen</span></a>
+               </li>
+               <li class="col-xs-4 col-sm-2 nopadding menuitem ui-menu-color04" data-animation-duration="1000" data-animation-delay="700">
+                  <a href="#servicio" class="hvr-sweep-to-bottom"><i class="flaticon-placeholders4"></i><span>Servicio</span></a>
+               </li>
+
+               <li class="col-xs-4 col-sm-2 nopadding menuitem ui-menu-color06" data-animation-duration="1000" data-animation-delay="1100">
+                  <a href="#portafolio" class="hvr-sweep-to-bottom"><i class="flaticon-pens15"></i><span>Portafolio</span></a>
+               </li>
+               <li class="col-xs-4 col-sm-2 nopadding menuitem ui-menu-color05" data-animation-duration="1000" data-animation-delay="900">
+                  <a href="#contactame" class="hvr-sweep-to-bottom"><i class="flaticon-earphones18"></i><span>Contactame</span></a>
+               </li>
+
+            </ul>
+
+            <!-- /Main Navigation -->
+
+         </div>
+      </div>
+   </section>
+</header>
+
+<!--<div class="dividewhite2"></div>-->
+
+<!-- Container -->
+<div class="content-wrap">
+
+   <section id="details" class="container-fluid ui-block-color01 dark" data-section="home"
+            data-animation-origin="left"
+            data-animation-duration="300"
+            data-animation-delay="700"
+            data-animation-distance="200px">
+
+      <!-- Personal Section -->
+      <div class="container">
+
+      <div class="row">
+
+        <div class="col-sm-4 wow bounceInLeft animated" style="visibility: visible; animation-name: bounceInLeft;">
+          <div class="profile-item">
+            <i class="fa fa-envelope-o"></i>
+            <h5><a href="mailto:richardmassri22@gmail.com">richardmassri22@gmail.com</a></h5>
+          </div>
+        </div>
+
+        <div class="col-sm-4 wow bounceInUp animated" style="visibility: visible; animation-name: bounceInUp;">
+          <div class="profile-item">
+            <i class="fa fa-mobile"></i>
+            <h5>+56 940 866 411</h5>
+          </div>
+        </div>
+
+        <div class="col-sm-4 wow bounceInRight animated" style="visibility: visible; animation-name: bounceInRight;">
+          <div class="profile-item">
+            <i class="fa fa-map-marker"></i>
+            <h5> Nueva San Martín 1490, Santiago, Chile</h5>
+          </div>
+        </div>
+
+      </div><!-- .row -->
+
+    </div><!-- .container -->
+      <!-- /Personal Section -->
+   </section>
+
+<div class="col-md-12 headline wow bounceInDown animated" style="visibility: visible; animation-name: bounceInDown;">
+  <h2>Richard Massri </h2>
+  <p>Desarrollador Web.</p>
+</div>
+<div id="perfil" class="container-fluid light bg-color05"
+        data-animation-origin="top"
+        data-animation-duration="500"
+        data-animation-delay="500"
+        data-animation-distance="25px">
+   <section id="circle-skills" class="container-fluid dark ui-block-color02" data-section="progress"
+            data-animation-origin="right"
+            data-animation-duration="400"
+            data-animation-delay="600"
+            data-animation-distance="200px">
+
+      <div class="row">
+
+         <div class="col-md-12 nopadding">
+
+            <div class="text-center">
+               <h3 class="font-accident-two-bold uppercase title">Habilidades profesionales</h3>
+               <div class="">
+                  <h5 class="font-accident-two-normal uppercase subtitle">Maquetación</h5>
+               </div>
+               <div class="row text-center">
+
+                 <div class="col-md-4 col-sm-6 col-xs-12 nopadding">
+                     <div class="progressbar semicircle text-center">
+                        <div id="circle2"
+                             data-progressbar="semicircle"
+                             data-progressbar-color="#fff"
+                             data-progressbar-trailcolor="#676767"
+                             data-progressbar-to='{"color": "#ffd200", "width": 4}'
+                             data-progressbar-from='{"color": "#3498db", "width": 4}'
+                             data-progressbar-value="0.95">
+                        </div>
+                        <h4 class="font-accident-two-normal uppercase">HTML</h4>    
+
+                     </div>
+                  </div>
+
+                  <div class="col-md-4 col-sm-6 col-xs-12 nopadding">
+                     <div class="progressbar semicircle text-center">
+                        <div id="circle2"
+                             data-progressbar="semicircle"
+                             data-progressbar-color="#fff"
+                             data-progressbar-trailcolor="#676767"
+                             data-progressbar-to='{"color": "#3366CC", "width": 4}'
+                             data-progressbar-from='{"color": "#3498db", "width": 4}'
+                             data-progressbar-value="0.85">
+                        </div>
+                        <h4 class="font-accident-two-normal uppercase">CSS</h4>    
+
+                     </div>
+                  </div>
+
+                  <div class="col-md-4 col-sm-6 col-xs-12 nopadding">
+                     <div class="progressbar semicircle text-center">
+                        <div id="circle3"
+                             data-progressbar="semicircle"
+                             data-progressbar-color="#fff"
+                             data-progressbar-trailcolor="#676767"
+                             data-progressbar-to='{"color": "#5c00e6", "width": 4}'
+                             data-progressbar-from='{"color": "#5c00e6", "width": 4}'
+                             data-progressbar-value="0.93">
+                        </div>
+                        <h4 class="font-accident-two-normal uppercase">BOOTSTRAP</h4>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+      </div>
+
+
+      <div class="row">
+         <div class="col-md-12 nopadding">
+            <div class="text-center">
+               <div class="">
+                  <h5 class="font-accident-two-normal uppercase subtitle">Javascript</h5>
+               </div>
+               <div class="row text-center">
+
+                  <div class="col-md-4 col-sm-6 col-xs-12 nopadding">
+                     <div class="progressbar semicircle text-center">
+                        <div id="circle1"
+                             data-progressbar="semicircle"
+                             data-progressbar-color="#fff"
+                             data-progressbar-trailcolor="#676767"
+                             data-progressbar-to='{"color": "#4d2600", "width": 4}'
+                             data-progressbar-from='{"color": "#3498db", "width": 4}'
+                             data-progressbar-value="0.85">
+                        </div>
+                        <h4 class="font-accident-two-normal uppercase">JQUERY</h4>
+                     </div>
+                  </div>
+
+                  <div class="col-md-4 col-sm-6 col-xs-12 nopadding">
+                     <div class="progressbar semicircle text-center">
+                        <div id="circle2"
+                             data-progressbar="semicircle"
+                             data-progressbar-color="#fff"
+                             data-progressbar-trailcolor="#676767"
+                             data-progressbar-to='{"color": "#ff1a1a", "width": 4}'
+                             data-progressbar-from='{"color": "#3498db", "width": 4}'
+                             data-progressbar-value="0.70">
+                        </div>
+                        <h4 class="font-accident-two-normal uppercase">ANGULARJS</h4>
+                     </div>
+                  </div>
+
+                  <div class="col-md-4 col-sm-6 col-xs-12 nopadding">
+                     <div class="progressbar semicircle text-center">
+                        <div id="circle3"
+                             data-progressbar="semicircle"
+                             data-progressbar-color="#fff"
+                             data-progressbar-trailcolor="#676767"
+                             data-progressbar-to='{"color": "#ff1a1a", "width": 4}'
+                             data-progressbar-from='{"color": "#3498db", "width": 4}'
+                             data-progressbar-value="0.80">
+                        </div>
+                        <h4 class="font-accident-two-normal uppercase">ANGULAR4</h4>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+       <div class="row">
+         <div class="col-md-12 nopadding">
+            <div class="text-center">
+               <div class="">
+                  <h5 class="font-accident-two-normal uppercase subtitle">Lenguajes</h5>
+               </div>
+               <div class="row text-center">
+                  <div class="col-md-4 col-sm-6 col-xs-12 nopadding">
+                     <div class="progressbar semicircle text-center">
+                        <div id="circle1"
+                             data-progressbar="semicircle"
+                             data-progressbar-color="#fff"
+                             data-progressbar-trailcolor="#676767"
+                             data-progressbar-to='{"color": "#ffffff", "width": 4}'
+                             data-progressbar-from='{"color": "#3498db", "width": 4}'
+                             data-progressbar-value="0.90">
+                        </div>
+                        <h4 class="font-accident-two-normal uppercase">PHP</h4>
+                     </div>
+                  </div>
+
+                  <div class="col-md-4 col-sm-6 col-xs-12 nopadding">
+                     <div class="progressbar semicircle text-center">
+                        <div id="circle2"
+                             data-progressbar="semicircle"
+                             data-progressbar-color="#fff"
+                             data-progressbar-trailcolor="#676767"
+                             data-progressbar-to='{"color": "#ffd200", "width": 4}'
+                             data-progressbar-from='{"color": "#3498db", "width": 4}'
+                             data-progressbar-value="0.70">
+                        </div>
+                        <h4 class="font-accident-two-normal uppercase">PYTHON</h4>
+                     </div>
+                  </div>
+
+                  <div class="col-md-4 col-sm-6 col-xs-12 nopadding">
+                     <div class="progressbar semicircle text-center">
+                        <div id="circle3"
+                             data-progressbar="semicircle"
+                             data-progressbar-color="#fff"
+                             data-progressbar-trailcolor="#676767"
+                             data-progressbar-to='{"color": "#000000", "width": 4}'
+                             data-progressbar-from='{"color": "#3498db", "width": 4}'
+                             data-progressbar-value="0.10">
+                        </div>
+                        <h4 class="font-accident-two-normal uppercase">JAVA</h4>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="row">
+         <div class="col-md-12 nopadding">
+            <div class="text-center">
+               <div class="">
+                  <h5 class="font-accident-two-normal uppercase subtitle">Framework php</h5>
+               </div>
+               <div class="row text-center">
+               <div class="col-md-1"> </div>
+                  <div class="col-md-2 nopadding">
+                     <div class="progressbar semicircle text-center">
+                        <div id="circle1"
+                             data-progressbar="semicircle"
+                             data-progressbar-color="#fff"
+                             data-progressbar-trailcolor="#676767"
+                             data-progressbar-to='{"color": "#51f2ec", "width": 4}'
+                             data-progressbar-from='{"color": "#3498db", "width": 4}'
+                             data-progressbar-value="0.90">
+                        </div>
+                        <h4 class="font-accident-two-normal uppercase">YII 1</h4>
+                     </div>
+                  </div>
+                  <div class="col-md-1"> </div>
+
+                  <div class="col-md-2 nopadding">
+                     <div class="progressbar semicircle text-center">
+                        <div id="circle2"
+                             data-progressbar="semicircle"
+                             data-progressbar-color="#fff"
+                             data-progressbar-trailcolor="#676767"
+                             data-progressbar-to='{"color": "#ff4d4d", "width": 4}'
+                             data-progressbar-from='{"color": "#3498db", "width": 4}'
+                             data-progressbar-value="0.90">
+                        </div>
+                        <h4 class="font-accident-two-normal uppercase">LARAVEL</h4>
+                     </div>
+                  </div>
+                <div class="col-md-1"> </div>
+                  <div class="col-md-2 col-sm-6 col-xs-12 nopadding">
+                     <div class="progressbar semicircle text-center">
+                        <div id="circle3"
+                             data-progressbar="semicircle"
+                             data-progressbar-color="#fff"
+                             data-progressbar-trailcolor="#676767"
+                             data-progressbar-to='{"color": "#47c091", "width": 4}'
+                             data-progressbar-from='{"color": "#e6b800", "width": 4}'
+                             data-progressbar-value="0.70">
+                        </div>
+                        <h4 class="font-accident-two-normal uppercase">CODEIGNITER</h4>
+                     </div>
+                     <div class="dividewhite1"></div>
+                  </div>
+                  <div class="col-md-1"> </div>
+
+                  <div class="col-md-2 col-sm-6 col-xs-12 nopadding">
+                     <div class="progressbar semicircle text-center">
+                        <div id="circle3"
+                             data-progressbar="semicircle"
+                             data-progressbar-color="#fff"
+                             data-progressbar-trailcolor="#676767"
+                             data-progressbar-to='{"color": "#267326", "width": 4}'
+                             data-progressbar-from='{"color": "#3498db", "width": 4}'
+                             data-progressbar-value="0.40">
+                        </div>
+                        <h4 class="font-accident-two-normal uppercase">DJANGO</h4>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+
+      <div class="row">
+         <div class="col-md-12 nopadding">
+            <div class="text-center">
+               <div class="">
+                  <h5 class="font-accident-two-normal uppercase subtitle">Base de Datos</h5>
+               </div>
+               <div class="row text-center">
+
+                  <div class="col-md-4 col-sm-6 col-xs-12 nopadding">
+                     <div class="progressbar semicircle text-center">
+                        <div id="circle1"
+                             data-progressbar="semicircle"
+                             data-progressbar-color="#fff"
+                             data-progressbar-trailcolor="#676767"
+                             data-progressbar-to='{"color": "#24248f", "width": 4}'
+                             data-progressbar-from='{"color": "#3498db", "width": 4}'
+                             data-progressbar-value="0.90">
+                        </div>
+                        <h4 class="font-accident-two-normal uppercase">MYSQL</h4>
+                     </div>
+                  </div>
+
+                  <div class="col-md-4 col-sm-6 col-xs-12 nopadding">
+                     <div class="progressbar semicircle text-center">
+                        <div id="circle2"
+                             data-progressbar="semicircle"
+                             data-progressbar-color="#fff"
+                             data-progressbar-trailcolor="#676767"
+                             data-progressbar-to='{"color": "#ffd200", "width": 4}'
+                             data-progressbar-from='{"color": "#3498db", "width": 4}'
+                             data-progressbar-value="0.85">
+                        </div>
+                        <h4 class="font-accident-two-normal uppercase">POSTGRESQL</h4>
+                     </div>
+                  </div>
+
+                  <div class="col-md-4 col-sm-6 col-xs-12 nopadding">
+                     <div class="progressbar semicircle text-center">
+                        <div id="circle3"
+                             data-progressbar="semicircle"
+                             data-progressbar-color="#fff"
+                             data-progressbar-trailcolor="#676767"
+                             data-progressbar-to='{"color": "#0000e6", "width": 4}'
+                             data-progressbar-from='{"color": "#3498db", "width": 4}'
+                             data-progressbar-value="0.50">
+                        </div>
+                        <h4 class="font-accident-two-normal uppercase">ORACLE</h4>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+      </div>
+
+
+       <div class="row">
+         <div class="col-md-12 nopadding">
+            <div class="text-center">
+               <div class="">
+                  <h5 class="font-accident-two-normal uppercase subtitle">Otros</h5>
+               </div>
+               <div class="row text-center">
+               <div class="col-md-1"></div>
+                  <div class="col-md-2 col-sm-6 col-xs-12 nopadding">
+                     <div class="progressbar semicircle text-center">
+                        <div id="circle1"
+                             data-progressbar="semicircle"
+                             data-progressbar-color="#fff"
+                             data-progressbar-trailcolor="#676767"
+                             data-progressbar-to='{"color": "#47d147", "width": 4}'
+                             data-progressbar-from='{"color": "#3498db", "width": 4}'
+                             data-progressbar-value="0.50">
+                        </div>
+                        <div class="dividewhite3"></div>
+                        <h4 class="font-accident-two-normal uppercase">NODE</h4>
+                     </div>
+                  </div>
+
+                  <div class="col-md-2 col-sm-6 col-xs-12 nopadding">
+                     <div class="progressbar semicircle text-center">
+                        <div id="circle2"
+                             data-progressbar="semicircle"
+                             data-progressbar-color="#fff"
+                             data-progressbar-trailcolor="#676767"
+                             data-progressbar-to='{"color": "#00264d", "width": 4}'
+                             data-progressbar-from='{"color": "#3498db", "width": 4}'
+                             data-progressbar-value="0.40">
+                        </div>
+                        <h4 class="font-accident-two-normal uppercase">EXPRESS</h4>
+                     </div>
+                  </div>
+
+                  <div class="col-md-2 col-sm-6 col-xs-12 nopadding">
+                     <div class="progressbar semicircle text-center">
+                        <div id="circle3"
+                             data-progressbar="semicircle"
+                             data-progressbar-color="#fff"
+                             data-progressbar-trailcolor="#676767"
+                             data-progressbar-to='{"color": "#000066", "width": 4}'
+                             data-progressbar-from='{"color": "#3498db", "width": 4}'
+                             data-progressbar-value="0.60">
+                        </div>
+                        <h4 class="font-accident-two-normal uppercase">PENTAHO</h4>
+                     </div>
+                  </div>
+
+                  <div class="col-md-2 col-sm-6 col-xs-12 nopadding">
+                     <div class="progressbar semicircle text-center">
+                        <div id="circle3"
+                             data-progressbar="semicircle"
+                             data-progressbar-color="#fff"
+                             data-progressbar-trailcolor="#676767"
+                             data-progressbar-to='{"color": "#ff1a1a", "width": 4}'
+                             data-progressbar-from='{"color": "#3498db", "width": 4}'
+                             data-progressbar-value="0.93">
+                        </div>
+                        <h4 class="font-accident-two-normal uppercase">GIT</h4>
+                     </div>
+                  </div>
+
+                  <div class="col-md-2 col-sm-6 col-xs-12 nopadding">
+                     <div class="progressbar semicircle text-center">
+                        <div id="circle3"
+                             data-progressbar="semicircle"
+                             data-progressbar-color="#fff"
+                             data-progressbar-trailcolor="#676767"
+                             data-progressbar-to='{"color": "#ffd11a", "width": 4}'
+                             data-progressbar-from='{"color": "#3498db", "width": 4}'
+                             data-progressbar-value="0.93">
+                        </div>
+                        <h4 class="font-accident-two-normal uppercase">SVN</h4>
+                     </div>
+                  </div>
+                </div>
+              </div>
+              
+          <div class="row">
+             <div class="col-md-12 nopadding">
+                <div class="text-center">
+                    <div class="col-md-1"> </div>
+                    <div class="col-md-2 col-sm-6 col-xs-12 nopadding">
+                       <div class="progressbar semicircle text-center">
+                          <div id="circle3"
+                               data-progressbar="semicircle"
+                               data-progressbar-color="#fff"
+                               data-progressbar-trailcolor="#676767"
+                               data-progressbar-to='{"color": "#b300b3", "width": 4}'
+                               data-progressbar-from='{"color": "#3498db", "width": 4}'
+                               data-progressbar-value="0.70">
+                          </div>
+                          <h4 class="font-accident-two-normal uppercase">VISUAL STUDIO</h4>
+                       </div>
+                    </div>
+
+                    <div class="col-md-2 col-sm-6 col-xs-12 nopadding">
+                       <div class="progressbar semicircle text-center">
+                          <div id="circle3"
+                               data-progressbar="semicircle"
+                               data-progressbar-color="#fff"
+                               data-progressbar-trailcolor="#676767"
+                               data-progressbar-to='{"color": "#0000ff", "width": 4}'
+                               data-progressbar-from='{"color": "#3498db", "width": 4}'
+                               data-progressbar-value="0.90">
+                          </div>
+                          <h4 class="font-accident-two-normal uppercase">BITBUCKET</h4>
+                          <div class="dividewhite1"></div>
+                       </div>
+                       <div class="dividewhite1"></div>
+                    </div>
+                    <div class="col-md-2 col-sm-6 col-xs-12 nopadding">
+                       <div class="progressbar semicircle text-center">
+                          <div id="circle3"
+                               data-progressbar="semicircle"
+                               data-progressbar-color="#fff"
+                               data-progressbar-trailcolor="#676767"
+                               data-progressbar-to='{"color": "#000000", "width": 4}'
+                               data-progressbar-from='{"color": "#3498db", "width": 4}'
+                               data-progressbar-value="0.90">
+                          </div>
+                          <h4 class="font-accident-two-normal uppercase">GITHUB</h4>
+                          <div class="dividewhite1"></div>
+                       </div>
+                       <div class="dividewhite1"></div>
+                    </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+<div id="resumen">
+   <section id="testmonials" class="container-fluid light bg-color05"
+            data-animation-origin="top"
+            data-animation-duration="500"
+            data-animation-delay="500"
+            data-animation-distance="25px">
+    <div class="padding-50">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 headline wow bounceInDown animated" style="visibility: visible; animation-name: bounceInDown;">
+            <h2>Resumen</h2>
+            <p>Mi educación y experiencia.</p>
+          </div>
+        </div><!-- .row -->
+        <div class="row resume-items">
+          <div class="col-md-3 wow bounceInLeft animated" style="visibility: visible; animation-name: bounceInLeft;">
+            <h3>Educación</h3>
+          </div>
+          <div class="col-md-6 col-sm-8 resume-item wow bounceInUp animated" style="visibility: visible; animation-name: bounceInUp;">
+            <h4>Ingeniero en Informática</h4>
+            <p>Graduado de la Universidad Politecnica Territorial de los Altos Mirandinos
+              Cecilio Acosta.</p>
+            <hr class="hidden-xs">
+          </div>
+          <div class="col-md-3 col-sm-4 resume-place wow bounceInRight animated" style="visibility: visible; animation-name: bounceInRight;">
+            <h4><i class="fa fa-graduation-cap"></i> UPTAMCA</h4>
+            <i class="fa fa-calendar"></i> 2009 - 2014
+            <hr class="visible-xs">
+          </div>
+        </div><!-- .row -->
+        <div class="row resume-items">
+          <div class="col-md-3 wow bounceInLeft animated" style="visibility: visible; animation-name: bounceInLeft;">
+            <h3>Experiencia</h3>
+          </div>
+          <div class="col-md-6 col-sm-8 resume-item wow bounceInUp animated" style="visibility: visible; animation-name: bounceInUp;">
+            <h4>Líder de Proyecto - Desarrollador de Software.
+                Caracas-Venezuela Ministerio de Educación</h4>
+            <p> Desarrollo aplicaciones web tales como el sistema de gestion escolar GESCOLAR (<a href="http://gescolar.me.gob.ve">gescolar.me.gob.ve</a>), Sistema de gestion operativa de catia (<a href="http://catia.me.gob.ve">gopae.me.gob.ve</a>) , liderazgo tecnico en el sistema de nomina, digitalizacion de expediente y finiquitos
+              del MPPE (Ministerio del poder popular para la educación), entre otros proyectos. </p>
+            <div class="col-md-12">
+              <h4 class="col-md-12 text-center"> Tecnologías Usadas: </h4>
+              <div class="col-md-6">
+                <ul>
+                  <ol>- Yii PHP Framework </ol>
+                  <ol>- Jquery </ol>
+                  <ol>- AngularJs </ol>
+                  <ol>- Bootstrap </ol>
+                  <ol>- Css3 </ol>
+                  <ol>- Sistema de Control de Versiones Git </ol>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <ul>
+                  <ol>- PostgreSQL (PL/PGSQL,Particionado Horizontal) </ol>
+                  <ol>- Pentaho Data Integration (ETL) </ol>
+                  <ol>- Linux </ol>
+                </ul>
+              </div>
+            </div>
+            <hr class="hidden-xs">
+          </div>
+          <div class="col-md-3 col-sm-4 resume-place wow bounceInRight animated" style="visibility: visible; animation-name: bounceInRight;">
+            <h4><i class="fa fa-home"></i> HOME </h4>
+            <i class="fa fa-calendar"></i> 2012-2014
+            <hr class="visible-xs">
+          </div>
+          <div class="col-md-6 col-md-offset-3 col-sm-8 resume-item wow bounceInUp animated" style="visibility: visible; animation-name: bounceInUp;">
+            <h4>Analista en Investigación y Desarrollo de Software, Leadsolution Caracas-Venezuela</h4>
+
+            <p> Desarrollo aplicaciones web tales como:</p>
+            <p>-Seguro de Vida.
+              Es un proyecto capas de promocionar seguro de vida a todas
+              aquellas personas que se registran en la landing page.
+              Técnicamente la pagina funciona con php, angular, css3, html5
+              y bd mysql. Funcionalidad, es capaz de enviar datas vía api a la
+              otra aplicación que es capaz de manipular datas y hacer
+              proceso de validación del lado del backend. </p>
+              <p>-Wmol. 
+              Es una aplicación que les permite a todos aquellos usuarios
+              poder participar por cualquiera de los teléfonos que se le ofrecen
+              en la pagina. Se les muestra un formulario y después de un
+              análisis de las preguntas y respuestas contestadas se les mostrara
+              ofertas a su conveniencia.</p>
+
+            <div class="col-md-12">
+              <h4 class="col-md-12 text-center"> Tecnologías Usadas: </h4>
+              <div class="col-md-6">
+                <ul>
+                  <ol>- Html5 </ol>
+                  <ol>- Css </ol>
+                  <ol>- Php </ol>
+                  <ol>- Lravel </ol>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <ul>
+                  <ol>- Jvascript-Jquery </ol>
+                  <ol>- AngularJs </ol>
+                  <ol>- Mysql </ol>
+                  <ol>- Desarrollo de api </ol>
+                </ul>
+              </div>
+            </div>
+            <hr class="hidden-xs">
+          </div>
+          <div class="col-md-3 col-sm-4 resume-place wow bounceInRight animated" style="visibility: visible; animation-name: bounceInRight;">
+            <h4><i class="fa fa-building"></i> Leadsolution Marqueting </h4>
+            <i class="fa fa-calendar"></i> 2014-2015
+            <hr class="visible-xs">
+          </div>
+          <div class="col-md-6 col-md-offset-3 col-sm-8 resume-item wow bounceInUp animated" style="visibility: visible; animation-name: bounceInUp;">
+            <h4>Desarrollador de proyectos bajo ambiente Front-end y Backend, Key-core International</h4>
+            <p> Desarrollo aplicaciónes web tales como:</p>
+            <p>-Invermaster. 
+              Invermaster es una plataforma web donde se pueden cargarpropiedades y proyectos que el cliente puede ver para así ofertar,de ser a su agrado. Cuanta con filtro avanzado, localización con google maps y 5 idiomas a convertir.
+            </p>
+            <p>
+              -Spasalon.
+              Spasalon es una plataforma web donde se lleva el control de citas, inventario y hora de especialista de un salón de belleza. Las citas se pueden reservar dirigiéndose al sitio de atención o teniendo un usuario previamente registrado para obtener dicha cita.
+            </p>
+            </p>
+            <div class="col-md-12">
+              <h4 class="col-md-12 text-center"> Tecnologías Usadas: </h4>
+              <div class="col-md-6">
+                <ul>
+                  <ol>- Yii PHP Framework </ol>
+                  <ol>- Html5 </ol>
+                  <ol>- CSS </ol>
+                  <ol>- Bootstrap </ol>
+                  <ol>- Jvascript </ol>
+                  <ol>- Laravel </ol>
+                  <ol>- Php </ol>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <ul>
+                  <ol>- Typescript </ol>
+                  <ol>- Jquery </ol>
+                  <ol>- Angular2-4 </ol>
+                  <ol>- Mysql </ol>
+                  <ol>-Git </ol>
+                  <ol>-Metodología scrum </ol>
+                </ul>
+              </div>
+            </div>
+            <hr class="hidden-xs">
+          </div>
+          <div class="col-md-3 col-sm-4 resume-place wow bounceInRight animated" style="visibility: visible; animation-name: bounceInRight;">
+            <h4><i class="fa fa-building"></i> Key-core International </h4>
+            <i class="fa fa-calendar"></i> 2017-2018
+            <hr class="visible-xs">
+          </div>
+        </div><!-- .row -->
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3 wow bounceInUp animated" style="visibility: visible; animation-name: bounceInUp;">
+            <a target="_blank" href="imagenes/cv.pdf" class="btn btn-default btn-custom-2"><i class="fa fa-cloud-download icon-before"></i> Descargar CV</a>
+          </div>
+        </div><!-- .row -->
+      </div><!-- .container -->
+      </div>
+   </section>
+</div>
+</div>
+</div>
+<div id="servicio">
+  <section id="circle-skills" class="container-fluid light ui-block-color02"
+          data-animation-origin="top"
+          data-animation-duration="500"
+          data-animation-delay="500"
+          data-animation-distance="25px">
+    <div class="padding-50 text-nowrap color10">
+      <div class="row">
+        <div class="col-md-12 headline wow bounceInDown animated" style="visibility: visible; animation-name: bounceInDown;">
+          <h2>Lo que me gusta hacer! </h2>
+        </div>
+
+        <div class="col-md-12">
+          <div class="row">
+           <div class="dividewhite3"> </div>
+            <div class="col-sm-4">
+              <div class="service">
+                <div class="icon">
+                  <i class="fa fa-newspaper-o"></i>
+                </div>
+
+                <h4 class="font-accident-two-normal uppercase">Sitios Web/ Paginas Personales</h4>
+                <div class="text">
+                  <!--<p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend.</p>-->
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-4 wow bounceInUp animated" style="visibility: visible; animation-name: bounceInUp;">
+              <div class="service">
+                <div class="icon">
+                  <i class="fa fa-calculator"></i>
+                </div>
+                <h4 class="font-accident-two-normal uppercase">Aplicaciones Web</h4>
+                <div class="text">
+                  <!--<p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend.</p>-->
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-4 wow bounceInRight animated" style="visibility: visible; animation-name: bounceInRight;">
+              <div class="service">
+                <div class="icon">
+                  <i class="fa fa-cog"></i>
+                </div>
+                <h4 class="font-accident-two-normal uppercase">Automatización de Tareas</h4>
+                <div class="text">
+                  <!--<p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend.</p>-->
+                </div>
+              </div>
+            </div>
+
+          </div><!-- .row -->
+
+          <div class="row">
+
+            <div class="col-sm-4 wow bounceInUp animated" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: bounceInUp;">
+              <div class="service">
+                <div class="icon">
+                  <i class="fa fa-code"></i>
+                </div>
+                <h4>Código Limpio</h4>
+                <div class="text">
+                  <!--<p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend.</p>-->
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-4 wow bounceInUp animated" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: bounceInUp;">
+              <div class="service">
+                <div class="icon">
+                  <i class="fa fa-desktop"></i>
+                </div>
+                <h4>Diseño Web Adaptable</h4>
+                <div class="text">
+                  <!--<p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend.</p>-->
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-4 wow bounceInUp animated" data-wow-delay=".6s" style="visibility: visible; animation-delay: 0.6s; animation-name: bounceInUp;">
+              <div class="service">
+                <div class="icon">
+                  <i class="fa fa-life-ring"></i>
+                </div>
+                <h4>Manejo de Servidores</h4>
+                <div class="text">
+                  <!--<p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend.</p>-->
+                </div>
+              </div>
+            </div>
+
+          </div><!-- .row -->
+
+        </div><!-- .col-md-12 -->
+
+      </div>
+    </div>
+  </section>
+</div>
+<div id="portafolio">
+<section id="circle-skills" class="container-fluid light bg-color05"
+        data-animation-origin="top"
+        data-animation-duration="500"
+        data-animation-delay="500"
+        data-animation-distance="25px">
+  <div class="padding-50">
+    <div class="row">
+
+      <div class="col-md-12 headline wow bounceInDown animated" style="visibility: visible; animation-name: bounceInDown;">
+          <h2>Portafolio</h2>
+          <p>Mis Mejores Trabajos.</p>
+          <div class="dividewhite3"> </div>
+      </div>
+      
+
+      <div class="col-md-4 col-sm-6 wow bounceInLeft animated" style="visibility: visible; animation-name: bounceInLeft;">
+        <a href="https://silesthetic.com/calidad/sil_esthetic/dist/" target="_blank" title="Spasalon">
+          <div class="portfolio-item">
+            <div class="portfolio-item-preview">
+              <img src="imagenes/spaLux1.png" alt="" class="zoom" style="width:95%;height:250px;background-color:white">
+            </div>
+            <div class="dividewhite3"> </div>
+            <div class="portfolio-item-description text-center col-md-12">
+            <h3>Spasalon</h3>
+            <p>Salon de Belleza</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-md-4 col-sm-6 wow bounceInLeft animated" style="visibility: visible; animation-name: bounceInLeft;">
+        <a href="https://invermasterpuntacana.com" target="_blank" title="Spasalon">
+          <div class="portfolio-item">
+            <div class="portfolio-item-preview">
+              <img src="imagenes/invermaster.png" alt="" class="zoom" style="width:95%;height:250px;background-color:white">
+            </div>
+            <div class="dividewhite3"> </div>
+            <div class="portfolio-item-description text-center col-md-12">
+              <h3>Invermaster</h3>
+              <p>Venta de Proyectos y Propiedades</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-md-4 col-sm-6 wow bounceInLeft animated" style="visibility: visible; animation-name: bounceInLeft;">
+        <a href="http://gescolar.me.gob.ve/login" target="_blank" title="MaxCar">
+          <div class="portfolio-item">
+            <div class="portfolio-item-preview">
+              <img src="imagenes/Venezuela.png" alt="" class="zoom" style="width:95%;height:250px;background-color:white">
+            </div>
+            <div class="dividewhite3"> </div>
+            <div class="portfolio-item-description text-center col-md-12">
+              <h3>Gestión Escolar</h3>
+              <p>Matrícula de Estudiantes</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+<div id="contactame">
+  <section id="circle-skills" class="container-fluid light ui-block-color02"
+          data-animation-origin="top"
+          data-animation-duration="500"
+          data-animation-delay="500"
+          data-animation-distance="25px">
+    <div class="padding-50">
+    <div class="container text-nowrap color10">
+      <div class="row">
+        <div class="col-md-12 headline wow bounceInLeft animated" style="visibility: visible; animation-name: bounceInLeft;">
+          <h2>Contáctame</h2>
+          <div class="dividewhite5"> </div>
+          <p class="text-nowrap color10">Déjame tu mensaje o llamame. Y prontamente te respondere.</p>
+        </div>
+        <div class="col-md-6 wow bounceInUp animated" style="visibility: visible; animation-name: bounceInUp;">
+
+          <ul class="icon-list">
+            <li><i class="fa fa-fw fa-map-marker"></i>San Diego 255, Santiago, Chile</li>
+            <li><i class="fa fa-fw fa-mobile"></i>+56 940 866 411</li>
+            <li><i class="fa fa-fw fa-envelope-o"></i><a class="text-nowrap color10" href="mailto:richardmassri22@gmail.com">richardmassri22@gmail.com</a></li>
+            <li><i class="fa fa-fw fa-globe"></i><a href="#" class="text-nowrap color10">https://github.com/rmassri</a></li>
+          </ul>
+        </div>
+        <div class="col-md-6 wow bounceInRight animated" style="visibility: visible; animation-name: bounceInRight;">
+          <form id="contact-form" role="form">
+            <div class="form-group">
+              <label class="sr-only" for="c_name">Nombre</label>
+              <input id="c_name" class="form-control" name="c_name" placeholder="Nombre" type="text">
+            </div>
+            <div class="form-group">
+              <label class="sr-only" for="c_email">Correo Electronico</label>
+              <input id="c_email" class="form-control" name="c_email" placeholder="Correo Electronico" type="email">
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" id="c_message" name="c_message" rows="7" placeholder="Tu mensaje"></textarea>
+            </div>
+            <button type="submit" class="btn btn-custom-1">
+              <i class="fa fa-bullhorn icon-before"></i> Enviar
+            </button>
+          </form>
+          <div class="ajax-response"></div>
+        </div>
+      </div><!-- .row -->
+    </div><!-- .container -->
+  </section>
+</div>
+<section id="testmonials" class="container-fluid light ui-block-color04"
+        data-animation-origin="top"
+        data-animation-duration="500"
+        data-animation-delay="500"
+        data-animation-distance="25px">
+  <footer id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <p class="copy text-nowrap color10" >
+              &copy; 2018 Richard Massri.
+            </p>
+          </div>
+        </div><!-- .row -->
+      </div><!-- .container -->
+  </footer>
+</section>
+<!-- Back to Top -->
+<div id="back-top"></div>
+<!-- /Back to Top -->
+<!-- JS -->
+<script src="ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="npmcdn.com/imagesloaded%404.1.4/imagesloaded.pkgd.min.js"></script>
+<script src="unpkg.com/isotope-layout%403.0.6/dist/isotope.pkgd.min.js"></script>
+<script src="https://unpkg.com/scrollreveal@beta"></script>
+<script src="cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js"></script>
+<script src="assets/vendor/mfp/js/jquery.magnific-popup.min9f1e.js?v=1.1.0" type="text/javascript"></script>
+<script src="assets/vendor/progressbar/progressbar.minf700.js?v=1.0.1" type="text/javascript"></script>
+<script src="assets/vendor/anicounter/jquery.counterup.minc619.js?v=1.0" type="text/javascript"></script>
+<script src="assets/vendor/pjax/jquery.pjax.min0177.js?v=1.9.6" type="text/javascript"></script>
+<script src="assets/vendor/owl-carousel/owl.carousel.minf066.js?v=2.1.0" type="text/javascript"></script>
+<script src="assets/vendor/headlines/headlines.minc619.js?v=1.0" type="text/javascript"></script>
+
+<!-- Custom scripts -->
+<script src="assets/custom/2.2.2/js/animation.js" type="text/javascript"></script>
+<script src="assets/custom/2.2.2/js/custom.js" type="text/javascript"></script>
+</body>
+<!-- Mirrored from neuethemes.net/preview/html/gridus/html/layouts/michael/index.html by HTTrack Website Copier/3.x [XR&CO'2013], Wed, 25 Apr 2018 19:45:46 GMT -->
+</html>
